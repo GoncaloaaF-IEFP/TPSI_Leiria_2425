@@ -2,7 +2,6 @@
 
 int main() { // para já receita
 
-
     //Faça um Programa que converta metros para centímetros. 1m = 100cm -> x m = (x*100)cm
 /*
     //Criar var
@@ -164,17 +163,33 @@ int main() { // para já receita
 // Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento
 // de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente
 // Sabendo o total de quilos pescados calcule o valor da multa
+// Assuma que o João Papo-de-Pescador pesca sempre mais de 50kg
+
 
     // Valor de entrada
     float pesoPescado;
 
     // var para algoritmo / programa
-    float pesoMax = 50;
-    float valorMulta = 4;
-
+    float pesoMax;
+    float valorMulta;
+    float excedente;
 
     // Valor de Saida
     float multa;
+
+    // codigo Programa
+
+    pesoMax = 50;
+    valorMulta = 4;
+
+    printf("Peso Pescado: ");
+    scanf("%f", &pesoPescado);
+
+    excedente = pesoPescado - pesoMax;
+
+    multa = excedente * valorMulta;
+
+    printf("o valor da multa é %.2f", multa);
 
 
 

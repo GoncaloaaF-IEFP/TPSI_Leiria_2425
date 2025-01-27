@@ -1,0 +1,22 @@
+Algoritmo - calcMulta
+
+    pesoPescado: Real
+
+    valorMulta: Real
+    pesoMax: Real
+    excedente: Real
+
+   multa: Real
+Inicio
+    valorMulta = 4
+    pesoMax = 50
+
+    ler pesoPescado
+
+    excedente <- pesoPescado - pesoMax
+
+    multa <- excedente * valoMulta
+
+    escrever "o valor da multa é" multa
+
+Fim

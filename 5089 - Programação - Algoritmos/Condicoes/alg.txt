@@ -1,0 +1,15 @@
+algoritmo - ok
+
+    num: Inteiro
+
+inicio
+
+    ler num
+
+    se num == 1 entao
+        escreve "ok"
+    se nao
+        escreve "nao ok"
+    fim se
+
+fim
