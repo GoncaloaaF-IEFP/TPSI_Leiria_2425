@@ -1,14 +1,10 @@
 Crie um Algoritmo que receba dois números inteiros
-e indique qual o maior
+e indique qual o maior, se forem iguais indique que são iguais
 
 
-Int - Inteiro
-Float/Double - Decimais
-char - Letras
 
-Bool - T/F
 
-Algoritmo - Mario
+Algoritmo - Maior 1
 
     num1: Int
     num2: Int
@@ -20,7 +16,12 @@ Inicio
 
     se num1 > num2 Entao:
         escrever "o maior e:" num1
-    se não:
+
+    se não se num1 <  num2: (else if <- c, go, swift, elif <- py , elsif <- ruby)
         escrever "o maior e:" num2
+
+    se não:
+        escrever "os num são iguais"
+
 
 Fim

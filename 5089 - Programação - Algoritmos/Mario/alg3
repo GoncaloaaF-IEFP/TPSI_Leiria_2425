@@ -1,0 +1,22 @@
+
+Algoritmo - Mario 2
+
+    num1: Int
+    num2: Int
+
+Inicio
+
+    ler num1
+    ler num2
+
+    se num1 > num2 Entao:
+        escrever "o maior e:" num1
+
+    se num2 > num1 Entao:
+         escrever "o maior e:" num2
+
+    se num1 = num2 Entao:
+        escrever "Igauis"
+
+
+Fim

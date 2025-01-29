@@ -1,0 +1,20 @@
+
+Inc
+
+num = 10
+
+num = num + 1
+   // como o programa executa
+        =  10 + 1
+        =  11
+    num =  11
+
+num += 1 <=> num = num + 1
+num += 5 <=> num = num + 5
+
+num++ <=> num += 1 <=> num = num + 1
+
+dec
+
+
+num-- <=> num -= 1 <=> num = num - 1

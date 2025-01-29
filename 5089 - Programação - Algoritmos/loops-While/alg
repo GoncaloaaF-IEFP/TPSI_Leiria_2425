@@ -1,0 +1,33 @@
+Crie um algoritmo para um contador de 0 a ate 10
+
+< menor
+> maior
+>= maior ou igual
+<= menor ou igual
+== igual
+!= Diferente
+! nagação (Inverte a condição)
+
+
+
+Algoritmo - Mario 2
+
+    contador: Int
+
+Inicio
+
+    contador = 0
+
+    Enquanto contador <= 10 fazer
+
+        escrever contador
+
+        contador++
+
+    fim Enquanto
+
+    escrever "o programa vai terminar"
+
+
+
+Fim

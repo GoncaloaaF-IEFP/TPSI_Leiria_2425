@@ -1,0 +1,22 @@
+crie um algoritmo para um programa que recebe(input)  números
+ate receber um número negativo, quando receber um número negativo termina
+
+Algoritmo - soPositivos
+
+    num: Int
+
+inicio
+
+      escrever "enter a number: "
+      ler num
+
+    Enquanto num >= 0 fazer
+
+        escrever "enter a number: "
+        ler num
+
+    fim Enquanto
+
+    escrever "o programa vai terminar"
+
+Fim

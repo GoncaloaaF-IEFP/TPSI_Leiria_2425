@@ -1,0 +1,29 @@
+Crie um algoritmo para um contador de 0 a ate 10
+
+Inc
+
+num = 10
+
+num = num + 1
+   // como o programa executa
+        =  10 + 1
+        =  11
+    num =  11
+
+num += 1 <=> num = num + 1
+num += 5 <=> num = num + 5
+
+dec
+
+
+
+
+Algoritmo - Mario 2
+
+
+
+Inicio
+
+
+
+Fim
