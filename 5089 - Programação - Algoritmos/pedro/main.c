@@ -43,6 +43,12 @@ int main(void) {
     printf("5+7=%d", resultado);
 
 
-
     return 0;
 }
+
+
+/*
+ *
+ * raiz(b^2 - 4*a*c)
+ *
+ */

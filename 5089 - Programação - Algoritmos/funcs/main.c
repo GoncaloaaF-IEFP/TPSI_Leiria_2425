@@ -29,19 +29,14 @@ void somaVoid(int num1, int num2) {
 
 int somaInt(int num1, int num2) {
     int soma = num1 + num2;
-
     return soma;
 }
+
 
 int soma3Int(int valor1, int valor2) {
     int soma = valor1 + valor2;
     return soma;
 }
-
-
-
-
-
 
 int main() { // inicio do programa, não mexer
 
