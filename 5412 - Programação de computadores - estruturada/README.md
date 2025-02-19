@@ -9,6 +9,7 @@
   * switch
 * Loops
   * for
+     * Continue 
   * while
   * do-while
 * funções
