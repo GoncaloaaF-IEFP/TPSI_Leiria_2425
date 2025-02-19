@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+
 void print(int index, int idades[]);
 float calcMediaIdades(int idades[], int idades_size);
 
@@ -35,17 +37,28 @@ int main(void) {
 
 
     printf("------------- calc Media -------------\n");
+    float media = calcMediaIdades(idades, idades_size);
+    printf("Media = %.2f\n", media); // 30.6
 
     return 0;
 }
 
 void print(int index, int idades[]) {
-    int idade_5 = idades[index]; // 15
+    int idade_5 = idades[index]; // 47.4
     printf("%d\n", idade_5);
 }
 
 
 float calcMediaIdades(int idades[], int idades_size) {
     //TODO: fainalizar a func para calcular a media
+
+    float sum = 0;
+    float media = 0;
+    for (int i = 0; i < idades_size; i++) {
+        sum += idades[i];
+    }
+
+    media = sum / idades_size;
+    return media;
 
 }
