@@ -18,7 +18,23 @@ int main(void) {
 
     print(0, idades);
 
-    printf("------------- calc Media -------------");
+    printf("------------- loop array (for)-------------\n");
+
+    for (int i = 0; i < idades_size; i++) {
+        print(i, idades);
+    }
+
+    printf("------------- loop array (while)-------------\n");
+
+    int i = 0;
+    while (i < idades_size) {
+        print(i, idades);
+        i += 1;
+
+    }
+
+
+    printf("------------- calc Media -------------\n");
 
     return 0;
 }
