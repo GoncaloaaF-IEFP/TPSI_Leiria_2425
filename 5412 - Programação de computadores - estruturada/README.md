@@ -10,4 +10,5 @@
   * for
   * while
   * do-while
-* funções        
+* funções
+* scope        
