@@ -17,7 +17,23 @@
  */
 
 
-//Faça um Programa que leia um array de 10 números reais e mostre-os na ordem inversa.
+
+
+
+
+
+/*
+ *
+ * Faça um Programa que leia um array de 10 números reais e mostre-os na ordem inversa.
+ *
+ *  ler 10 números
+ *  guardar os 10 números num array
+ *  mostre-os na ordem inversa.
+ *
+ *
+ *
+ *
+ */
 int ARRAY_SIZE = 10;
 
 
