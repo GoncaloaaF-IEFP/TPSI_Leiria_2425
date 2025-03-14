@@ -9,7 +9,7 @@ class Carro:
         self.cor = cor
         self.isLigado = False
 
-    def ligar(self): ## Java -> public void get_info()
+    def ligar(self) -> None: ## Java -> public void get_info()
         print(f"{self.modelo} está a ligar...")
         self.isLigado = True
 

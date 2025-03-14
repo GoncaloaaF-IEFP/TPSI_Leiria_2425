@@ -14,12 +14,18 @@ c2.ligar()
 print(c2.get_info())
 
 """
-def soma(a:int,b:int = 0):
+def soma(a:int,b:int = 0) -> None:
     print(a + b)
-
 
 soma(1,5)
 soma(2)
+
+
+##em c 
+#  void soma(int a, int b){
+#    printf("%d", a + b);
+#  }
+
 
 """
 
