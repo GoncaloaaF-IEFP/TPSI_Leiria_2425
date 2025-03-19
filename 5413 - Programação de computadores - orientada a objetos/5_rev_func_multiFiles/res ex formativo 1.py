@@ -76,7 +76,7 @@ def ex4_2(num_notas:int):
 
     media = total / num_notas
 
-    print(f"a meida das notas é: {media}")
+    print(f"a media das notas é: {media}")
 
 n = int(input("Quantas notas quer ler: "))
 
