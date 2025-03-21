@@ -161,7 +161,7 @@ def soma(lista):
     return s
 
 def media(lista) -> float:
-   return soma(lista) / lista.__len__()
+   return sum(lista) / lista.__len__()
 
 """
 lista_notas = []
