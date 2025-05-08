@@ -13,5 +13,5 @@ interface APIHandler {
 
     @GET("comments/{id}")
     fun getComment(@Path("id") id:Int): Call<Comment>
-    
+
 }
