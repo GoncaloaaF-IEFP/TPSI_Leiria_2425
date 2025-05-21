@@ -282,8 +282,57 @@ print(type(of: arr3))
 
 print(type(of: dict1.values))
 
-var keys = Array(dict1.keys)
 
+print(dict1["a"]!)
+var keys = Array(dict1.keys)
 print(dict1.keys)
 print(keys[0])
 print(Int.random(in: 0..<3))
+
+
+//selecionar um valor random de dicionario sem usar a função -> dict1.randomElement()
+print("---------")
+
+print(dict1[dict1.keys.randomElement()!]!)
+print(dict1.randomElement()!.value)
+
+print("---------")
+
+var keys_2 = Array(dict1.keys)
+var randKey = keys_2[Int.random(in: 0..<keys_2.count)]
+print(dict1[randKey]!)
+
+
+print("---------")
+var val_list = Array(dict1.values)
+val_list[Int.random(in: 0..<val_list.count)]
+
+
+
+
+
+var dict3: [String: Int] = ["a":1, "b":2, "c":3]
+
+var dict4 = ["a":5, "b":6, "d":9]
+
+print("---------")
+dict3 = dict4.merging(dict3) { (_, new) in
+    return new
+}
+
+print(dict3)
+
+
+
+print("---------")
+
+/*
+ 
+var foo = 20
+ 
+lazy var foo = 20
+
+ 
+ 
+ 
+ */
