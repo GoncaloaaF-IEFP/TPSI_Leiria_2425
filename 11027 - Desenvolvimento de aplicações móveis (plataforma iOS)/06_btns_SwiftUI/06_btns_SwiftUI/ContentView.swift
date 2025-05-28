@@ -29,7 +29,12 @@ struct ContentView: View {
                 
                 //text = "It works! \(count)"
                 
-                text = "Ola \(text_tf)!"
+                if !text_tf.isEmpty {
+                    text = "Ola \(text_tf)!"
+                }else {
+                    print("TODO: informar o usr q o nome não pode ser vazio!")
+                    
+                }
                 
                 text_tf = ""
                 
@@ -40,6 +45,8 @@ struct ContentView: View {
                 
             }
             .padding(20)
+            //.disabled(text_tf.isEmpty)
+            
 
             
             /*
