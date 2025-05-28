@@ -9,16 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
 
-    var text = "Ola Mundo"
+    @State var text = "Ola Mundo"
+    @State var text_tf = ""
+    @State var count = 0
         
     var body: some View {
         VStack {
             Text(text)
             
+            TextField("Qual o seu nome?", text: $text_tf)
+                .frame(width: 300)
+                .textFieldStyle(.roundedBorder)
             
             Button {
                 
                 print("It works!")
+                
+                count += 1
+                
+                //text = "It works! \(count)"
+                
+                text = "Ola \(text_tf)!"
+                
+                text_tf = ""
+                
                 
             } label: {
                 
@@ -28,6 +42,7 @@ struct ContentView: View {
             .padding(20)
 
             
+            /*
             
             Button {
                 print("It works!")
@@ -35,7 +50,7 @@ struct ContentView: View {
                 
                 btnView(lbl:"Btn 2")
             }
-
+*/
             
             
         }
