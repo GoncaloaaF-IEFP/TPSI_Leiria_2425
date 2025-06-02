@@ -19,6 +19,8 @@ struct newView: View {
                 .fontWeight(.black)
             
             TextField("novo txt", text: $text)
+                .frame(width:220)
+                .textFieldStyle(.roundedBorder)
         }
     }
 }
