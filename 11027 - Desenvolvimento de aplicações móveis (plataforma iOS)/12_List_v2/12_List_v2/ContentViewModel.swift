@@ -22,8 +22,20 @@ class ContentViewModel: ObservableObject {
         Aluno(nome: "Gabriela Lima", numero: 107, email: "gabriela.lima@example.com"),
         Aluno(nome: "Henrique Alves", numero: 108, email: "henrique.alves@example.com"),
         Aluno(nome: "Inês Ferreira", numero: 109, email: "ines.ferreira@example.com"),
-        Aluno(nome: "João Ribeiro", numero: 110, email: "joao.ribeiro@example.com")
+        Aluno(nome: "João Ribeiro", numero: 110, email: "joao.ribeiro@example.com"),
+        Aluno(nome: "Andre Silva", numero: 101, email: "Andre.silva@example.com")
     ]
+    
+    
+    func filtroAlunos(aluno: Aluno) -> Bool {
+            return aluno.nome.contains("a")
+    }
+    
+    func filtroAlunos2(aluno: Aluno) -> Bool {
+            return !aluno.nome.contains("a")
+    }
+    
+
     
     
     
