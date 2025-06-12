@@ -11,6 +11,6 @@ import Foundation
 
 class ContentViewModel:ObservableObject {
     
-    @Published var isViseble:Bool = false
+    @Published var isViseble:Bool = true
     
 }

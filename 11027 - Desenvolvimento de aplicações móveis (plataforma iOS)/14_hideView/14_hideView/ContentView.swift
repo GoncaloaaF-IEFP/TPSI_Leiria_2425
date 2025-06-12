@@ -12,22 +12,16 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            
-           
-            
-            
+            Spacer()
             if vm.isViseble {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
+                GloboView()
+             
             }else{
-                Image(systemName: "figure.dance.circle.fill")
-                    .imageScale(.large)
-                    .foregroundStyle(.yellow)
-                
+                DanceView()
+
             }
-            Text("Hello, world!")
-            
+           
+            Spacer()
             
             Toggle("mostrar o globo", isOn: $vm.isViseble)
                 .frame(width: 190, height: 50)
